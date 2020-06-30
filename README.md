@@ -27,7 +27,7 @@ tar -cJvf test.tar.xz test
 ```sh
 zip -r test.zip test
 ```
--r - recursive
+- r - recursive
 
 ### 7zip
 ```sh
