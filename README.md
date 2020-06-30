@@ -3,7 +3,6 @@
 ## Compressing
 
 ### Gunzip
-Faster then bzip2 and xz
 ```sh
 tar -cjvf test.tar.gz test
 ```
@@ -13,27 +12,33 @@ tar -cjvf test.tar.gz test
 - f - file name of output
 
 ### Bzip2
-Worse then xz and gz but better then zip compression (my opinion)
 ```sh
 tar -czvf test.tar.bz2 test
 ```
-Same as before
 - z - bz2
 
 ### XZ
-Smallest size, based on Lizma
 ```sh
 tar -cJvf test.tar.xz test
 ```
-Same as before
 - J - xz
 
 ### Zip
-Worst compression
 ```sh
 zip -r test.zip test
 ```
 -r - recursive
+
+### 7zip
+```sh
+7z a test.7z test
+```
+- a - add
+
+### Rar
+```sh
+rar a test.rar test
+```
 
 ## Decompressing
 
@@ -48,4 +53,14 @@ tar -xfv test.tar.*
 ### Zip
 ```sh
 unzip test.zip
+```
+
+### 7zip
+```sh
+7z x test.7z
+```
+
+### Rar
+```sh
+rar x test.rar
 ```
