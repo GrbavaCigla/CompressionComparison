@@ -1,2 +1,2 @@
 #!/bin/bash
-du -b ./* | grep -v "size.sh" | grep -v "create.sh" | uniq | sort
+du -b ./* | egrep -v "size.sh|create.sh|LICENSE|README.md" | uniq | sort
