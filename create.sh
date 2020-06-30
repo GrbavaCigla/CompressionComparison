@@ -1,7 +1,7 @@
 #!/bin/bash
-tar -cjvf bla.tar.gz bla
-tar -czvf bla.tar.bz2 bla
-tar -cJvf bla.tar.xz bla
-zip -r bla.zip bla
-7z a bla.7z bla
-rar a bla.rar bla
+tar -cjvf test.tar.gz test
+tar -czvf test.tar.bz2 test
+tar -cJvf test.tar.xz test
+zip -r test.zip test
+7z a test.7z test
+rar a test.rar test
